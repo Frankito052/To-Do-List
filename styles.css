@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    padding-top: 10rem;
+}
+
+h1 {
+    color: white;
+}
+
+.input-div {
+    display: flex;
+    align-items: center;
+}
+
+.fstInput {
+    width: 450px;
+    height: 50px;
+    margin: 5px;
+    padding: 0 20px;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 18px;
+}
+
+.boton-agregar {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 6, 46);
+    color: white;
+    transition: 0.5s all ease;
+}
+
+.boton-agregar:hover {
+    opacity: 0.6;
+}
+
+.item-input {
+    height: 60px;
+    width: 300px;
+    padding: 0 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    background: none;
+    outline: none;
+}
+
+.edit-btn {
+    width: 50px;
+    height: 50px;
+    background: none;
+    border: none;
+}
+
+.remove-btn {
+    background: red;
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    color: white;
+}
+
+.bx-lock-alt {
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    color: yellow;
+}
+
+.bx-lock-open-alt{
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    color: yellow;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
